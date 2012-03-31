@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34AF4161527304400271044 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34AF4151527304400271044 /* Cocoa.framework */; };
+		C34AF4201527304400271044 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34AF41E1527304400271044 /* InfoPlist.strings */; };
+		C34AF4221527304400271044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C34AF4211527304400271044 /* main.m */; };
+		C34AF4261527304400271044 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C34AF4241527304400271044 /* Credits.rtf */; };
+		C34AF4291527304400271044 /* GpxPpDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C34AF4281527304400271044 /* GpxPpDocument.m */; };
+		C34AF42C1527304400271044 /* GpxPpDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34AF42A1527304400271044 /* GpxPpDocument.xib */; };
+		C34AF42F1527304400271044 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34AF42D1527304400271044 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C34AF4111527304400271044 /* GPX Pretty Printer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPX Pretty Printer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34AF4151527304400271044 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C34AF4181527304400271044 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C34AF4191527304400271044 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C34AF41A1527304400271044 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C34AF41D1527304400271044 /* GPX Pretty Printer-Info.plist */ = {isa = PBXFileReference; path = "GPX Pretty Printer-Info.plist"; sourceTree = "<group>"; };
+		C34AF41F1527304400271044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C34AF4211527304400271044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C34AF4231527304400271044 /* GPX Pretty Printer-Prefix.pch */ = {isa = PBXFileReference; path = "GPX Pretty Printer-Prefix.pch"; sourceTree = "<group>"; };
+		C34AF4251527304400271044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C34AF4271527304400271044 /* GpxPpDocument.h */ = {isa = PBXFileReference; path = GpxPpDocument.h; sourceTree = "<group>"; };
+		C34AF4281527304400271044 /* GpxPpDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GpxPpDocument.m; sourceTree = "<group>"; };
+		C34AF42B1527304400271044 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GpxPpDocument.xib; sourceTree = "<group>"; };
+		C34AF42E1527304400271044 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34AF40E1527304400271044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34AF4161527304400271044 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34AF4061527304400271044 = {
+			isa = PBXGroup;
+			children = (
+				C34AF41B1527304400271044 /* GPX Pretty Printer */,
+				C34AF4141527304400271044 /* Frameworks */,
+				C34AF4121527304400271044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C34AF4121527304400271044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34AF4111527304400271044 /* GPX Pretty Printer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34AF4141527304400271044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C34AF4151527304400271044 /* Cocoa.framework */,
+				C34AF4171527304400271044 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34AF4171527304400271044 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C34AF4181527304400271044 /* AppKit.framework */,
+				C34AF4191527304400271044 /* CoreData.framework */,
+				C34AF41A1527304400271044 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C34AF41B1527304400271044 /* GPX Pretty Printer */ = {
+			isa = PBXGroup;
+			children = (
+				C34AF4271527304400271044 /* GpxPpDocument.h */,
+				C34AF4281527304400271044 /* GpxPpDocument.m */,
+				C34AF42A1527304400271044 /* GpxPpDocument.xib */,
+				C34AF42D1527304400271044 /* MainMenu.xib */,
+				C34AF41C1527304400271044 /* Supporting Files */,
+			);
+			path = "GPX Pretty Printer";
+			sourceTree = "<group>";
+		};
+		C34AF41C1527304400271044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C34AF41D1527304400271044 /* GPX Pretty Printer-Info.plist */,
+				C34AF41E1527304400271044 /* InfoPlist.strings */,
+				C34AF4211527304400271044 /* main.m */,
+				C34AF4231527304400271044 /* GPX Pretty Printer-Prefix.pch */,
+				C34AF4241527304400271044 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34AF4101527304400271044 /* GPX Pretty Printer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34AF4321527304400271044 /* Build configuration list for PBXNativeTarget "GPX Pretty Printer" */;
+			buildPhases = (
+				C34AF40D1527304400271044 /* Sources */,
+				C34AF40E1527304400271044 /* Frameworks */,
+				C34AF40F1527304400271044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPX Pretty Printer";
+			productName = "GPX Pretty Printer";
+			productReference = C34AF4111527304400271044 /* GPX Pretty Printer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34AF4081527304400271044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GpxPp;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Passback IT";
+			};
+			buildConfigurationList = C34AF40B1527304400271044 /* Build configuration list for PBXProject "GPX Pretty Printer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C34AF4061527304400271044;
+			productRefGroup = C34AF4121527304400271044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34AF4101527304400271044 /* GPX Pretty Printer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34AF40F1527304400271044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34AF4201527304400271044 /* InfoPlist.strings in Resources */,
+				C34AF4261527304400271044 /* Credits.rtf in Resources */,
+				C34AF42C1527304400271044 /* GpxPpDocument.xib in Resources */,
+				C34AF42F1527304400271044 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34AF40D1527304400271044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34AF4221527304400271044 /* main.m in Sources */,
+				C34AF4291527304400271044 /* GpxPpDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C34AF41E1527304400271044 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34AF41F1527304400271044 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C34AF4241527304400271044 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34AF4251527304400271044 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C34AF42A1527304400271044 /* GpxPpDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34AF42B1527304400271044 /* en */,
+			);
+			name = GpxPpDocument.xib;
+			sourceTree = "<group>";
+		};
+		C34AF42D1527304400271044 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34AF42E1527304400271044 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C34AF4301527304400271044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C34AF4311527304400271044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C34AF4331527304400271044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPX Pretty Printer/GPX Pretty Printer-Prefix.pch";
+				INFOPLIST_FILE = "GPX Pretty Printer/GPX Pretty Printer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C34AF4341527304400271044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPX Pretty Printer/GPX Pretty Printer-Prefix.pch";
+				INFOPLIST_FILE = "GPX Pretty Printer/GPX Pretty Printer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34AF40B1527304400271044 /* Build configuration list for PBXProject "GPX Pretty Printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34AF4301527304400271044 /* Debug */,
+				C34AF4311527304400271044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34AF4321527304400271044 /* Build configuration list for PBXNativeTarget "GPX Pretty Printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34AF4331527304400271044 /* Debug */,
+				C34AF4341527304400271044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34AF4081527304400271044 /* Project object */;
+}
