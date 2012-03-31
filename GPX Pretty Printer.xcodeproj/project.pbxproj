@@ -22,12 +22,12 @@
 		C34AF4181527304400271044 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C34AF4191527304400271044 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C34AF41A1527304400271044 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C34AF41D1527304400271044 /* GPX Pretty Printer-Info.plist */ = {isa = PBXFileReference; path = "GPX Pretty Printer-Info.plist"; sourceTree = "<group>"; };
+		C34AF41D1527304400271044 /* GPX Pretty Printer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPX Pretty Printer-Info.plist"; sourceTree = "<group>"; };
 		C34AF41F1527304400271044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C34AF4211527304400271044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C34AF4231527304400271044 /* GPX Pretty Printer-Prefix.pch */ = {isa = PBXFileReference; path = "GPX Pretty Printer-Prefix.pch"; sourceTree = "<group>"; };
+		C34AF4231527304400271044 /* GPX Pretty Printer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPX Pretty Printer-Prefix.pch"; sourceTree = "<group>"; };
 		C34AF4251527304400271044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C34AF4271527304400271044 /* GpxPpDocument.h */ = {isa = PBXFileReference; path = GpxPpDocument.h; sourceTree = "<group>"; };
+		C34AF4271527304400271044 /* GpxPpDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GpxPpDocument.h; sourceTree = "<group>"; };
 		C34AF4281527304400271044 /* GpxPpDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GpxPpDocument.m; sourceTree = "<group>"; };
 		C34AF42B1527304400271044 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GpxPpDocument.xib; sourceTree = "<group>"; };
 		C34AF42E1527304400271044 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
